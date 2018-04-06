@@ -21,7 +21,7 @@ consul-data:
     - /opt/rancher/config
   net: none
 consul:
-  image: husseingalal/consul-config:0.1.2
+  image: dimach/consul
   labels:
     io.rancher.container.hostname_override: container_name
     io.rancher.sidekicks: consul-base,consul-data
