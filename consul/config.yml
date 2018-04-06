@@ -1,0 +1,5 @@
+name: Consul Cluster 123software
+description: |
+  Consul cluster
+version: 1.0.1-rancher1
+category: Clustering 123software
